@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="icon" href="PORTIOC.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+div  .name1{
+    font-family: "Alfa Slab One", serif;
+    /* font-weight: 300; */
+    font-size:40px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: rgb(181, 169, 176);
+}
+div .navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    padding-top: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Zilla Slab", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+   
+    
+}
+#mainhead{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid transparent;
+    position: sticky;
+    top: 0;
+    /* background-color: black; */
+}
+.profile img{
+    height: 500px;
+    width: 400px;
+    border-radius: 100px;
+    background-color: rgb(174, 8, 99);
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.name2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    margin: 2opx;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.name2 .pink{
+    color: rgb(174, 8, 99)!important;
+}
+.name2 h1,h3{
+    padding: 8px;
+    color: whitesmoke;
+}
+.firstcon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    height: 100vh;
+}
+.navbar li a:hover{
+    color: rgb(174, 8, 99);
+}
+div  .name1:hover{
+    color: rgb(174, 8, 99);
+}
+.icons a img{
+    width: 35px;
+    padding: 10px;
+}
+.abt{
+    margin-top: 400px;
+   display: flex;
+   height: 100vh;
+}
+.profile1 img{
+    height: 400px;
+    width: 300px;
+    border-radius: 100px;
+    background-color: rgb(249, 9, 149);
+    margin-left: 150px;
+    padding: 10px;
+}
+.content1 p{
+    color: cornsilk;
+    align-items: center;
+    text-align: center;
+    font-family: "Alfa Slab One", serif;
+    font-size:25px;
+    font-style: normal;
+    color: rgb(249, 9, 149);
+    text-shadow: -5px,5px,10px,white;
+}
+.content1{
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
+.content1 button{
+    background:linear-gradient(to right,yellow,orange,red);
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 350px;
+    
+}
+.gtt img{
+    border: none;
+    border-radius: 300px;
+    padding: 5px;
+    background-color:white;
+    position: fixed;
+   right: 50px;
+   cursor: pointer;
+}
+.content1 P:hover{
+    color: darkturquoise;
+}
+.content1 button{
+    background-color: rgb(249, 9, 149);
+}
+.profile1 img:hover{
+    background-color: darkturquoise;
+}
+.skills1 img,.skills2 img,.skills3 img,.skills4 img,.skills5 img{
+    width: 60px;
+}
+.skills1 p,.skills2 p,.skills3 p,.skills4 p,.skills5 p{
+    color: rgb(249, 9, 149);
+    font-weight: 200px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.skills1,.skills2,.skills3,.skills4,.skills5{
+    border: 1px solid rgb(242, 0, 0);
+    border-radius: 90px;
+    display: inline-block;
+    height: 350px;
+    text-align: center;
+    padding: 50px;
+    width: 300px;
+    margin-top: 100px;
+    align-items: center;
+}
+.skills1:hover,.skills2:hover,.skills3:hover,.skills4:hover,.skills5:hover{
+    height: 400px;
+    width:350px;
+    cursor:-moz-grabbing;
+    background-color: rgb(255, 255, 255);
+    
+}
+.skills1 p:hover,.skills2 p:hover,.skills3 p:hover,.skills4 p:hover,.skills5 p:hover{
+    color: green;
+   
+}
+.skill{
+    margin-top: 500px;
+    text-align: center;
+    margin-left: 100px;
+    height: 100vh;
+}
+.skill   h1{
+    color: rgb(249, 9, 149);
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.Contact-us{
+    margin-top: 500px;
+}
+.Contact-us h1{
+    color: rgb(249, 9, 149);
+    text-align: center;
+}
+form input{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 50px ;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+#name12{
+    align-items: center;
+}
+form{
+    display: flex;
+     flex-direction: column; 
+     align-items: center;
+     margin-top: 50px;
+     height: 100vh;
+}
+form #message{
+    height: 250px;
+}
+form button{
+    background-color: rgb(249, 9, 149);
+    padding: 10px;
+    width: 200px;
+    color: white;
+    border:none;
+    border-radius: 40px;
+}
+footer {
+    background-color: #161414;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content h3 {
+    font-family: 'Alfa Slab One', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(249, 9, 149);
+}
+
+.footer-content p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-content .socials {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content .socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-content .socials li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    background-color: #161414;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div id="mainhead">
+        <div class="name1">
+            <p>vasantha kumar</p>
+        </div>
+        <div class="navbar" id="mmm">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#abbt">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="#Contact-us">Contact us</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="firstcon">
+        <div class="name2">
+            <h1>Hi,There<br></h1>
+            <h1 class="pink">I Am vasantha kumar</h1>
+            <h3>Web Developer And web Designer</h3>
+            <div class="icons">
+                <a href="https://www.naukri.com/mnjuser/profile"><img src="./nakuri.ioc" alt="" srcset=""></a>
+                <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage"><img src="./indeed.ioc" alt="" srcset=""></a>
+                <a href="https://www.linkedin.com/in/vasantha-kumar-i-b9b616298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="in1.ioc" alt="" srcset=""></a>
+                <a href="https://api.whatsapp.com/send?phone=9787834297&text=Hello%20there!" target="_blank"><img src="what.ioc" alt="" srcset=""></a>
+            </div>
+        </div>
+        <div class="profile">
+                <img src="./vasanth.jpeg"alt="vasantha kumar">
+        </div>
+        <div class="gtt">
+            <a href="#mmm" ><img src="top.ioc" alt=""></a>
+        </div>
+    </div>
+
+    <div class="abt">
+        <div class="profile1">
+            <img src="./vasanth1.jpeg"alt="vasantha kumar" id="abbt">
+        </div>
+        <div class="content1">
+            <p>I am Vasantha Kumar. I completed my studies in BCA and am a fresher. I have skills in front-end development, with strong proficiency in HTML, CSS, and JavaScript. Additionally, I have knowledge in web designing.</p>
+            <a href="./resume.pdf" download="resume.pdf"><button>Download CV</button></a>
+        </div>
+        </div>
+    <div class="skill" id="skill">
+                <h1>Skills</h1>
+                <div class="skills">
+        <div class="skills1">
+            <img src="html_1.png" alt="html" id="skill">
+            <p>I have strong knowledge in HTML and a solid understanding of basic to advanced concepts in HTML. I am proficient in creating well-structured, semantic HTML documents and have experience with various HTML5 features. My expertise includes working with forms, multimedia elements, and ensuring web accessibility. Additionally, I am skilled in optimizing HTML for performance and SEO, making me a versatile and capable front-end developer.</p>
+        </div>
+        <div class="skills2">
+            <img src="css_1.png" alt="html">
+            <p>I have strong knowledge in CSS and a solid understanding of basic to advanced concepts in CSS. I am proficient in creating responsive and visually appealing web pages using modern CSS techniques. My expertise includes working with Flexbox, CSS Grid, and animations to build dynamic layouts. Additionally, I am skilled in using CSS preprocessors like Sass to write maintainable and scalable stylesheets, making me a versatile and capable front-end developer.</p>
+        </div>
+        <div class="skills3">
+            <img src="js_1.png" alt="html">
+            <p>I have strong knowledge in JavaScript and a solid understanding of basic to advanced concepts in JavaScript. I am proficient in writing clean and efficient code using modern JavaScript features such as ES6+. My expertise includes DOM manipulation, event handling, and asynchronous programming with promises and async/await. Additionally, I have experience with popular frameworks and libraries like React, Angular, and Vue.js, making me a versatile and capable front-end developer.</p>
+        </div>
+        <div class="skills4">
+            <img src="hardware_1.png" alt="html">
+            <p>I have strong knowledge in both hardware and software, with a solid understanding of basic to advanced concepts in each. I am proficient in assembling, troubleshooting, and maintaining computer systems and peripherals, including CPUs, GPUs, motherboards, RAM, and storage devices. On the software side, I am skilled in various operating systems, and software applications. My expertise includes installing, configuring, and optimizing software for performance and security, making me a versatile and capable IT specialist.</p>
+        </div>
+        <div class="skills5">
+            <img src="office_1.png" alt="html">
+            <p>I have strong knowledge in Microsoft technologies and a solid understanding of basic to advanced concepts in this area. I am proficient in using Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook, for various productivity tasks.</p>
+        </div>
+    </div>
+        </div>
+        <div class="Contact-us" id="Contact-us">
+            <h1>Contact-us</h1>
+            <div class="from">
+                <form action="">
+                    <input type="text" id="name12" placeholder=" enter your Name"><br>
+                    <input type="email" id="email1" placeholder="Enter your email"><br>
+                    <input type="number" id="phone-number" placeholder="Enter your phone-number" min="0"><br>
+                    <input type="text" id="message" placeholder="Enter your message" maxlength="200"><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+             <div class="footer-content"> 
+            <h3>Vasantha Kumar</h3>
+             <p>Web Developer and Web Designer</p> 
+             <ul class="socials"> 
+                <li><a href="https://www.naukri.com/mnjuser/profile"><img src="./nakuri.ioc" alt="Facebook"></a></li> 
+                <li><a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage"><img src="indeed.ioc" alt="Instagram"></a></li>
+                 <li><a href="https://www.linkedin.com/in/vasantha-kumar-i-b9b616298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="in1.ioc" alt="LinkedIn"></a></li> 
+                 <li><a href="https://api.whatsapp.com/send?phone=9787834297&text=Hello%20there!" target="_blank"><img src="what.ioc" alt="WhatsApp"></a></li> </ul> 
+                </div> 
+                <div class="footer-bottom">
+                     <p>&copy; 2024 Vasantha Kumar. All rights reserved.</p> 
+                    </div>
+                 </footer>
+</body>
+</html>
